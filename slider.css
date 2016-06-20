@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+
+#sliderSK {
+width: 800px;
+height: 333px;
+overflow: hidden;
+-moz-transition: all 170ms ease-in;
+-webkit-transition: all 170ms ease-in;
+-o-transition: all 170ms ease-in;
+}
+#maskSK { height:333px;
+overflow:hidden;
+}
+#sliderSK:hover {
+background-color:#fff;
+border-right: 4px solid rgb (176,0,0)
+border-left: 4px solid rgb(176,0,0)
+border-top: 4px solid rgb (22,22,22)
+border-bottom: 4px solid rgb(22,22,22)
+box-shadow :0px 0px 13px;
+}
+#sliderSK:hover #pauseSK {
+opacity:1;
+}
+#sliderSK:hover #progressSK {
+background-color:rgba(255,255,255,0.0);
+}
+#sliderSK:hover ul, #sliderSK:hover #progressSK, #sliderSK:hover #overlaySK {
+-moz-animation-play-state:paused;
+-webkit-animation-play-state:paused;
+}
+#sliderSK ul li span h2 {
+font-size:24px;
+line-height:24px;
+color:#fff;
+font-weight:normal;
+font-family:'Communist-Regular';
+text-shadow:1px 1px 1px #362c30;
+}
+#pauseSK {
+width:800px;
+height:333px;
+position:absolute;
+top:0;
+opacity:0;
+pointer-events:none;
+-moz-transition:all 170ms ease-in;
+-webkit-transition:all 170ms ease-in;
+-o-transition:all 170ms ease-in;
+}
+#progressSK {
+width:2px;
+height:3px;
+background-color:#0054BB;
+-moz-animation:progress 35s infinite;
+-webkit-animation:progress 35s infinite;
+position:relative;
+top:-1px;
+-moz-transition:all 170ms ease-in;
+-webkit-transition:all 170ms ease-in;
+-o-transition:all 170ms ease-in;
+}
+#overlaySK {
+width:4680px;
+height:60px;
+position:absolute;
+top:0;
+pointer-events:none;
+-moz-transition:all 170ms ease-in;
+-webkit-transition:all 170ms ease-in;
+-o-transition:all 170ms ease-in;
+opacity:0.5;
+-moz-animation:overlay-fade 35s infinite;
+-webkit-animation:overlay-fade 35s infinite;
+}
+#sliderSK ul {
+width:3200px;
+list-style:none;
+padding:0;
+margin:0;
+-moz-animation:slide-animation 35s infinite;
+-webkit-animation:slide-animation 35s infinite;
+position:relative;
+left:0px;
+overflow:hidden;
+}
+#sliderSK li {
+display:inline;
+width:800px;
+height:333px;
+margin:0;
+padding:0;
+float:left;
+position:relative;
+}
+#sliderSK li:last-of-type {
+background-color:#362c30;
+}
+#sliderSK li a {
+display:block;
+text-decoration:none;
+}
+#sliderSK li span {
+display:block;
+width:800px;
+padding:15px 20px;
+position:absolute;
+bottom:0;
+left:0;
+background-color:rgba(54,44,48,0.6);
+border-top:1px solid #362c30;
+text-shadow:1px 1px 1px #362c30;
+pointer-events:none;
+text-align:left;
+}
+@-webkit-keyframes slide-animation {
+0% {opacity:0;}
+2% {opacity:1;}
+20% {left:0px; opacity:1;}
+22.5% {opacity:0.6;}
+25% {left:-800px; opacity:1;}
+45% {left:-800px; opacity:1;}
+47.5% {opacity:0.6;}
+50% {left:-1600px; opacity:1;}
+70% {left:-1600px; opacity:1;}
+72.5% {opacity:0.6;}
+75% {left:-2400px; opacity:1;}
+95% {opacity:1;}
+98% {left:-2400px; opacity:0;}
+100% {left:0px; opacity:0;}
+}
+@-moz-keyframes slide-animation {
+0% {opacity:0;}
+2% {opacity:1;}
+20% {left:0px; opacity:1;}
+22.5% {opacity:0.6;}
+25% {left:-800px; opacity:1;}
+45% {left:-800px; opacity:1;}
+47.5% {opacity:0.6;}
+50% {left:-1400px; opacity:1;}
+70% {left:-1400px; opacity:1;}
+72.5% {opacity:0.6;}
+75% {left:-2400px; opacity:1;}
+95% {opacity:1;}
+98% {left:-2400px; opacity:0;}
+100% {left:0px; opacity:0;}
+}
+@-webkit-keyframes progress {
+0% {width:0px; opacity:0;}
+2% {width:0px; opacity:1;}
+20% {width:800px; opacity:1;}
+22.5% {width:800px; opacity:0;}
+22.59% {width:0px;}
+25% {width:0px; opacity:1;}
+45% {width:800px; opacity:1;}
+47.5% {width:800px; opacity:0;}
+47.59% {width:0px;}
+50% {width:0px; opacity:1;}
+70% {width:800px; opacity:1;}
+72.5% {width:800px; opacity:0;}
+72.59% {width:0px;}
+75% {width:0px; opacity:1;}
+95% {width:800px; opacity:1;}
+98% {width:800px; opacity:0;}
+100% {width:0px; opacity:0;}
+}
+@-moz-keyframes progress {
+0% {width:0px; opacity:0;}
+2% {width:0px; opacity:1;}
+20% {width:800px; opacity:1;}
+22.5% {width:800px; opacity:0;}
+22.59% {width:0px;}
+25% {width:0px; opacity:1;}
+45% {width:800px; opacity:1;}
+47.5% {width:800px; opacity:0;}
+47.59% {width:0px;}
+50% {width:0px; opacity:1;}
+70% {width:800px; opacity:1;}
+72.5% {width:800px; opacity:0;}
+72.59% {width:0px;}
+75% {width:0px; opacity:1;}
+95% {width:800px; opacity:1;}
+98% {width:800px; opacity:0;}
+100% {width:0px; opacity:0;}
+}
+@-webkit-keyframes overlay-fade {
+0% {opacity:0;}
+2% {opacity:0.5;}
+95% {opacity:0.5;}
+98% {opacity:0;}
+100% {opacity:0;}
+}
+@-moz-keyframes overlay-fade {
+0% {opacity:0;}
+2% {opacity:0.5;}
+95% {opacity:0.5;}
+98% {opacity:0;}
+100% {opacity:0;}
+}

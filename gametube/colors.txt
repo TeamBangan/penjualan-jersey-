@@ -1,0 +1,6 @@
+Default Font Color   : #006CFF
+Link Color           : #006FB5
+Link Hover Color     : #FF8A22
+
+Header Bottom Border : #0067B5
+Footer Top Border    : #0067B5

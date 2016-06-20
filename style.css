@@ -1,0 +1,92 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body, html {
+font-family: Calibri, "times new roman", sans-serif;
+}
+
+#button {
+margin: 5% auto;
+width: 100px;
+text-align: center;
+}
+
+
+#product-pict img{ width:70%; height:70%;}
+#button a {
+background-image: linear-gradient(to bottom,#2a95c5,#21759b);
+background-image: -o-linear-gradient(to bottom,#2a95c5,#21759b);
+background-image: -ms-linear-gradient(to bottom,#2a95c5,#21759b);
+background-image: -moz-linear-gradient(to bottom,#2a95c5,#21759b);
+background-image: -webkit-linear-gradient(to bottom,#2a95c5,#21759b);
+background-color: #2e9fd2;
+width: 86px;
+height: 30px;
+vertical-align: middle;
+padding: 10px;
+color: #fff;
+text-decoration: none;
+border: 1px solid transparent;
+border-radius: 5px;
+}
+
+
+
+#ACM5, #ARS02B, #ASR, #CHE1, #FCB3, #FCB2, #FCB1, #INA, #INT2, #int1, #JUV1, #JUV2, #LAZ, #LIV, #MAR, #MNC,
+#MNU1, #acm1, #are, #bel, #FCB, #ITA1, #acm2, #are2, #bra, #acm8, #LIV2, #MNU2, #MUN1, #PSG, #MNU5, #TOT,
+#are1, #bra1, #RMA1, #acm7, #are1, #MNU3, #MUN9, #PSG1, #MNU4, #TOT1, #spa, #MUNC, #Persija, #SWA, #WHU,
+#acm, #arg, #ARS, #CHE2, #ITA, #acm4, #JUV, #LFC10E, #MNC5, #mun5, #LIV4, #RMA, #acm3, #liv1, #ger, #acm6,
+#acm6, #ARS02G, #Dor, #Ger1, #LIV3, #ACM9, #MNC6, #mun7, #MUN10, #RMA4, #ACM10, #RMA5, #ACM01, #ASR02, #CHE01,
+#FCB01, #LFC01, #MUN02, #RMA01, #psg11, #ACM02, #ASR01, #LFC02, #MNU01, #ASR07, #FCB08, #MUN08, #ACM04, #ACM09,
+#ASR09, #FCB_2, #Int09, #ITA03, #JUVBE, #LFCY, #MNUO01, #MNUO02, #MNO003, #MUNO01, #AMIL, #AC1, #AR1, #BC1, #CH1,
+#LI1, #MU1, #AC2, #AR2, #BC2, #JU1, #LI2, #MC1, #MU2, #PS1, #RM1, #AR3, #BC4, #LI5{
+width: 100%;
+height: 100%;
+position:fixed;
+background: rgba(0,0,0,.7);
+top: 0;
+left: 0;
+z-index: 9999;
+visibility: hidden;
+}
+
+
+
+.close-button {
+	float:right; width: 30px; height: 30px; border-radius: 50%;
+	border: 3px solid black; display: block; text-align: center; text-decoration: none; position: absolute; bottom:30px; left:30px;
+}
+
+#ACM5:target, #FCB3:target, #FCB2:target, #FCB1:target, #INA:target, #INT2:target, #int1:target,
+#JUV1:target, #JUV2:target, #LAZ:target, #LIV:target, #MAR:target, #MNC:target, #ACM9:target,
+#MNU1:target, #acm1:target, #are:target, #bel:target, #FCB:target, #ITA1:target, #acm2:target,
+#are2:target, #bra:target, #acm8:target, #LIV2:target, #MNU2:target, #MUN1:target, #PSG:target,
+#MNU5:target, #TOT:target, #are1:target, #bra1:target, #RMA1:target, #acm7:target, #are1:target{
+visibility: visible;
+}
+
+#ARS02B:target, #MNU3:target, #MUN9:target, #PSG1:target, #MNU4:target, #TOT1:target, #spa:target,
+#MUNC:target, #Persija:target, #SWA:target, #WHU:target, #ITA:target, #acm4:target, #JUV:target,
+#LFC10E:target, #MNC5:target, #mun5:target, #LIV4:target, #RMA:target, #acm3:target, #liv1:target,
+#ger:target, #acm6:target, #acm6:target, #ARS02G:target, #Dor:target, #Ger1:target, #LIV3:target,
+#LFC01:target, #MUN02:target, #RMA01:target, #psg11:target, #ACM02:target, #ASR01:target, #ACM09:target{
+visibility: visible;
+}
+
+#ASR:target, #acm:target, #arg:target, #ARS:target, #CHE2:target, #MNC6:target, #mun7:target,
+#MUN10:target, #RMA4:target, #ACM10:target, #RMA5:target, #ACM01:target, #ASR02:target, #CHE01:target,
+#FCB01:target, #LFC02:target, #MNU01:target, #ASR07:target, #FCB08:target, #MUN08:target, #ACM04:target,
+#ASR09:target, #FCB_2:target, #Int09:target, #ITA03:target, #JUVBE:target, #LFCY:target, #MNUO01:target,
+#MNUO02:target, #MUNO01:target, #MNO003:target, #AMIL:target, #AC1:target, #AR1:target, #BC1:target,
+#CH1:target, #LI1:target, #MU1:target, #AC2:target, #AR2:target, #BC2:target, #JU1:target, #LI2:target{
+visibility: visible;
+}
+
+#CHE1:target, #MC1:target, #MU2:target, #PS1:target, #RM1:target, #AR3:target, #BC4:target, #LI5:target {
+visibility: visible;
+}
+
+
+

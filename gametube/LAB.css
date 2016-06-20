@@ -1,0 +1,143 @@
+body{
+	width:1000px;
+	margin:0 auto;
+}
+header{
+	width:1000px;
+	height:50px;
+	border-bottom:1px solid #0067B5;
+}
+header{
+	width:1000px;
+	height:50px;
+	padding-left:10px;
+}
+header img{
+	width:181px;
+	height:27px;
+	float:left;
+}
+header a{
+	text-decoration:none;
+	color:#006FB5;
+	font-size:22px;
+}
+header a:hover{
+	color:#FF8A22;
+	font-size:28px;
+}
+.A li{
+	height:30px;
+	margin:10px;
+	float:left;
+	text-align:center;
+	list-style-type:none;
+	text-decoration:none;
+}
+nav{
+	width:1000px;
+	height:900px;
+	padding-bottom:20px;
+	border-bottom:2px solid #0067B5;
+}
+.section h1{
+	text-align:center;
+	color:#03F;
+	font-size:28px;
+}
+
+.aside h1{
+	text-align:center;
+	color:#03F;
+	font-size:16px;
+	margin-top:30px;
+}
+.B{
+	padding-left:55px;
+	padding-right:35px;
+}
+.aside .satu{
+	width:160px;
+	height:120px;
+	border:1px solid #0CF;
+	text-align:center;
+	float:left;
+	margin-right:20px;
+}
+.satu ul{
+	padding: 0px;
+	margin: 0px;
+}
+.satu li{
+	list-style-type:none;
+}
+.satu img{
+	width:150px;
+	height:88px;
+	padding: 5px;
+}
+.satu .info h2{
+	font-size:13px;
+	color:#03F;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+.main{
+	padding-left:27px;
+	padding-right:37px;
+}
+
+.main h1{
+	text-align:center;
+	color:#03F;
+	font-size:30px;
+	padding-top:30px;
+	clear:both;
+}
+.main .menu{
+	width:300px;
+	height:350px;
+	border:1px solid #CCC;
+	text-align:center;
+	float:left;
+	margin-left:10px;
+}
+.main .menu .judul h1{
+	color:#666;
+	font-size:22px;
+	padding:0px;
+	margin:10px 5px !important;
+	text-align:left;
+}
+.main .menu .info{
+	font-size:12px;
+	color:#999;
+	padding:0px;
+	margin:5px;
+	text-align:left;
+}
+footer{
+	height:100px;
+}
+footer a{
+	text-decoration:none;
+	color:#006FB5;
+	font-size:18px;
+}
+footer a:hover{
+	color:#FF8A22;
+	font-size:28px;
+}
+footer li{
+	height:30px;
+	margin:10px;
+	float:left;
+	text-align:center;
+	list-style-type:none;
+	text-decoration:none;
+}
+video{
+	width:90%;
+	padding-left:5%;
+}
